@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $to = 'your-email@example.com'; // Replace with your email address
+    $to = 'ziad.w.khedr@gmail.com'; 
     $subject = 'New message from portfolio contact form';
     $headers = "From: $email" . "\r\n" .
                "Reply-To: $email" . "\r\n" .
